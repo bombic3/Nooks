@@ -1,0 +1,25 @@
+{
+  "name": "@nooks/use-title",
+  "version": "1.0.0",
+  "description": "React Hook to update your document's title",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombic3/Nooks.git"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "title"
+  ],
+  "author": "Bombi Kim <bombic3@naver.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bombic3/Nooks/issues"
+  },
+  "homepage": "https://github.com/bombic3/Nooks#readme",
+  "peerdependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
