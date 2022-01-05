@@ -31,5 +31,5 @@ export const useAxios = (opts, axiosInstance = defaultAxios) => {
         setState({ ...state, loading: false, error });
       });
   }, [trigger]);
-  return { state, refetch };
+  return { ...state, refetch };
 };

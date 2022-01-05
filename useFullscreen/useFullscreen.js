@@ -2,7 +2,7 @@ export const useFullscreen = () => {
   const element = useRef();
   const triggerFull = () => {
     if (element.current) {
-      element.current.requestFullScreen();
+      element.current.requestFullscreen();
     }
   };
   return { element, triggerFull };
