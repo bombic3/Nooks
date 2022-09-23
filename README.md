@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 0 Hooks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 0.2 Introduction to Nooks
 
-## Available Scripts
+- 최종 목표 : Hooks library build 하는 것 (오픈소스 npm 패키지에 올리기)
+- Collection of sexy React Hooks ready to install with NPM
 
-In the project directory, you can run:
+### ✅ useTitle
 
-### `npm start`
+- react document의 title을 몇개의 hooks와 함께 바꾸는 것
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### ✅ useInput
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### ✅ usePageLeave
 
-### `npm test`
+- 유저가 page를 벗어나는 시점을 발견하고 함수를 실행
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ✅ useClick
 
-### `npm run build`
+- element를 클릭하는 시점을 발견
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ✅ useFadeIn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 어떤 element든 상관없이 애니메이션을 element 안으로 서서히 사라지게 만드는 것
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ✅ useFullscreen
 
-### `npm run eject`
+- 어떤 element든 풀스크린으로 만들거나 일반 화면으로 돌아가게 하는 것
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ useHover
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- 어떤 것에 마우스를 올렸을 때 감지
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### ✅ useNetwork
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Online/Offline 상태 감지
 
-## Learn More
+### ✅ useNotifiaction
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- notification API를 사용할 때 유저에게 알림을 보내주는 것
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### ✅ useScroll
 
-### Code Splitting
+- 스크롤 사용할 때를 감지하여 알려줌
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### ✅ useTabs
 
-### Analyzing the Bundle Size
+- 웹사이트에 메뉴 또는 무엇이든간에 tab을 사용하기 매우 쉽게 만들어주는 것
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### ✅ usePreventLeave
 
-### Making a Progressive Web App
+- 유저가 변경사항(이나 무엇이든간에) 저장하지 않고 페이지를 벗어나길 원할 때 확인 하는 것
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### ✅ useConfirm
 
-### Advanced Configuration
+- 비슷한 느낌으로 어떤 기능이 존재
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### ✅ useAxios
 
-### Deployment
+- HTTP requests client axios 을 위한 wrapper 같은 것
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 0.3 Requirements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- npm 을 설치해야 package를 publish 할 수 있음
+
+---
+
+## 0.4 Workflow
+
+- CodeSandBox 에서 작업 후 → 정상적으로 작성 되면 VSC 폴더 생성 → NPM directory 에 등록
